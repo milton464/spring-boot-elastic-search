@@ -1,0 +1,6 @@
+package org.milton.elastic.utils;
+
+public enum Action {
+
+	INSERT, BULK_INSERT, UPDATE, BULK_UPDATE, DELETE, BULK_DELETE, SEARCH, COUNT, EXIST_INDEX, CREATE_INDEX, EXIST
+}
