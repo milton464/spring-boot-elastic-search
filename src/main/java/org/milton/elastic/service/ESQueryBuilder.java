@@ -67,6 +67,10 @@ public class ESQueryBuilder {
 	public static Query getMatchPrefixQuery(String fieldName, String fieldValue) {
 		return new Query.Builder().matchPhrasePrefix(m -> m.field(fieldName).query(fieldValue).maxExpansions(1000)).build();
 	}
+
+	public static Query getMatchPhraseQuery(String fieldName, String fieldValue) {
+		return new Query.Builder().matchPhrase(m -> m.field(fieldName).query(fieldValue)).build();
+	}
 	
 	
 	/**
