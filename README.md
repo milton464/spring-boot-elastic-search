@@ -208,3 +208,7 @@ public static Query getWildCardQuery(String fieldName, String fieldVale) {
 	}
 ```
 
+
+
+# Obviously to learn more and for deep understanding you should follow : [elasctic search](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+
